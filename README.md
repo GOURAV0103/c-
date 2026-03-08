@@ -1,4 +1,4 @@
-💻 C++ Practice Projects
+# 💻 C++ Practice Projects
 
 This repository contains basic C++ projects created for practice and learning.
 The purpose of this repository is to improve my understanding of C++ programming, problem solving, and console-based application development.
