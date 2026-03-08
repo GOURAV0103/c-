@@ -1,23 +1,24 @@
 # 💻 C++ Practice Projects
 
-This repository contains basic C++ projects created for practice and learning.
-The purpose of this repository is to improve my understanding of C++ programming, problem solving, and console-based application development.
+This repository contains **basic C++ projects created for practice and learning**.  
+The purpose of this repository is to improve my understanding of **C++ programming, problem solving, and console-based application development**.
 
 ---
 
-📚 Projects Included
+## 📚 Projects Included
 
-Project| Description
-Student Record System| A program to manage student details
-Bank Management System| Basic banking operations like deposit, withdraw and balance check
-Library Management System| Manage books with add, view, search, issue and return features
-Calculator| Performs basic arithmetic operations
-Contact Book| Store and manage contact information
-Guess Number Game| A simple number guessing game using loops and conditions
+| Project | Description |
+|--------|-------------|
+| Student Record System | A program to manage student details |
+| Bank Management System | Basic banking operations like deposit, withdraw and balance check |
+| Library Management System | Manage books with add, view, search, issue and return features |
+| Calculator | Performs basic arithmetic operations |
+| Contact Book | Store and manage contact information |
+| Guess Number Game | A simple number guessing game using loops and conditions |
 
 ---
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 - C++
 - Structures
@@ -28,42 +29,27 @@ Guess Number Game| A simple number guessing game using loops and conditions
 
 ---
 
-📂 Repository Structure
+## 📂 Repository Structure
+---
 
-cpp-projects
-│
-├── Student_record-system.cpp
-├── bank_management_system.cpp
-├── calculator.cpp
-├── contact__book.cpp
-├── guess_number.cpp
-└── README.md
+## ▶ How to Run
+
+Compile the program:
+Run the program:
 
 ---
 
-▶ How to Run
-
-1. Compile the program:
-
-g++ filename.cpp
-
-2. Run the program:
-
-./a.out
-
----
-
-🎯 Purpose
+## 🎯 Purpose
 
 - Practice C++ programming
-- Build small console-based projects
 - Improve problem solving skills
+- Build small console-based applications
 
 ---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
-More C++ projects will be added in the future, such as:
+More C++ projects will be added in the future such as:
 
 - Quiz Game
 - Tic Tac Toe
@@ -72,8 +58,8 @@ More C++ projects will be added in the future, such as:
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Gourav
+**Gourav**
 
 Learning and practicing C++ programming.
