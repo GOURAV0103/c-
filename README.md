@@ -1,29 +1,19 @@
 💻 C++ Practice Projects
 
 This repository contains basic C++ projects created for practice and learning.
-The projects focus on understanding core programming concepts and building simple console-based applications.
+The purpose of this repository is to improve my understanding of C++ programming, problem solving, and console-based application development.
 
 ---
 
 📚 Projects Included
 
-1. Student Record System
-   Manage and store student details.
-
-2. Bank Management System
-   Perform simple banking operations like deposit, withdraw, and balance check.
-
-3. Calculator
-   Basic arithmetic operations using C++.
-
-4. Contact Book
-   Store and manage contact details.
-
-5. Guess the Number Game
-   A simple number guessing game using loops and conditions.
-
-6. Library Management System (if you add it)
-   Manage books with options to add, view, search, issue, and return books.
+Project| Description
+Student Record System| A program to manage student details
+Bank Management System| Basic banking operations like deposit, withdraw and balance check
+Library Management System| Manage books with add, view, search, issue and return features
+Calculator| Performs basic arithmetic operations
+Contact Book| Store and manage contact information
+Guess Number Game| A simple number guessing game using loops and conditions
 
 ---
 
@@ -38,21 +28,47 @@ The projects focus on understanding core programming concepts and building simpl
 
 ---
 
-🎯 Purpose of This Repository
+📂 Repository Structure
 
-- Practice C++ programming
-- Improve problem-solving skills
-- Build small console-based projects
+cpp-projects
+│
+├── Student_record-system.cpp
+├── bank_management_system.cpp
+├── calculator.cpp
+├── contact__book.cpp
+├── guess_number.cpp
+└── README.md
 
 ---
 
-🚀 Future Plans
+▶ How to Run
 
-More projects will be added such as:
+1. Compile the program:
+
+g++ filename.cpp
+
+2. Run the program:
+
+./a.out
+
+---
+
+🎯 Purpose
+
+- Practice C++ programming
+- Build small console-based projects
+- Improve problem solving skills
+
+---
+
+🚀 Future Improvements
+
+More C++ projects will be added in the future, such as:
 
 - Quiz Game
+- Tic Tac Toe
 - File Handling Projects
-- Data Structure based projects
+- Data Structures based programs
 
 ---
 
