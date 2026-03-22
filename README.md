@@ -37,7 +37,8 @@ The purpose of this repository is to improve my understanding of **C++ programmi
 Compile the program:
 
 Run the program:
-
+g++ filename.cpp -o output
+./output
 ---
 
 ## 🎯 Purpose
