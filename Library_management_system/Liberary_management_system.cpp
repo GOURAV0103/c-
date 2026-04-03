@@ -12,9 +12,12 @@ struct Book
 Book bk[1000];
 int quantity = 0;
 
-bool idExists(int ids){
-    for(int i =0 ;i<quantity;i++){
-        if(bk[i].id == ids){
+bool idExists(int ids)
+{
+    for (int i = 0; i < quantity; i++)
+    {
+        if (bk[i].id == ids)
+        {
             return true;
         }
     }
@@ -32,20 +35,20 @@ void Add_book()
     int id;
     cout << "Enter Unique ID: ";
     cin >> id;
-    if(idExists(id)){
+    if (idExists(id))
+    {
         cout << "ID already exists! Enter a different ID.\n";
-        return ;
+        return;
     }
     bk[quantity].id = id;
 
+    // THIS CODE AUTOMATICALLY ASSIGN THE ID's FOR BOOKs
+    //  cout << "Assigning ID...." << endl;
+    //  bk[quantity].id = quantity+1;
+    //  cout << "ID Assigned success" << endl;
 
-    //THIS CODE AUTOMATICALLY ASSIGN THE ID's FOR BOOKs
-    // cout << "Assigning ID...." << endl;
-    // bk[quantity].id = quantity+1;
-    // cout << "ID Assigned success" << endl;
-
-
-    cout << "Enter the name of the book: ";
+    cout << "Enter the name of the book: \n";
+    cout << "USE {_}userscore INSTEAD OF SPACE: ";
     cin >> bk[quantity].name;
 
     cout << "Enter the Author name: ";
@@ -61,11 +64,13 @@ void View_book()
     cout << "ID\t\tNAME\t\tAUTHOR\t\tISSUED" << endl;
     for (int i = 0; i < quantity; i++)
     {
-        cout << bk[i].id << "\t\t"<< bk[i].name << "\t\t"<< bk[i].author ;
-        if(bk[i].issued){
+        cout << bk[i].id << "\t\t" << bk[i].name << "\t\t" << bk[i].author;
+        if (bk[i].issued)
+        {
             cout << "\t\tIssued" << endl;
         }
-        else{
+        else
+        {
             cout << "\t\tAvailable" << endl;
         }
     }
@@ -110,7 +115,7 @@ void Issue_book()
             {
                 cout << "*******Book Issued Successfully******" << endl;
                 bk[i].issued = true;
-                //quantity--;
+                // quantity--;
             }
             else
             {
@@ -131,20 +136,27 @@ void Return_book()
     string bk_name;
     cout << "Enter the book that you want to return: ";
     cin >> bk_name;
-    for (int i = 0; i < quantity ; i++)
+    for (int i = 0; i < quantity; i++)
     {
         if (bk_name == bk[i].name)
         {
             found = true;
-            if (bk[i].issued = 1){
-                //quantity++;
+            if (bk[i].issued == 1) // 1 true
+            {
+                // quantity++;
                 bk[i].issued = false;
                 cout << "Book returned successfully" << endl;
             }
+            else
+            {
+                cout << "Book was not issued" << endl;
+            }
+            break;
         }
-        else{
-            cout << "Book was not issued"<<endl;
-        }   
+    }
+    if (!found)
+    {
+        cout << "\nBook is not in the library" << endl;
     }
 }
 
